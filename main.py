@@ -27,7 +27,7 @@ app.add_middleware(
 
 
 @app.get("/api/trends", response_model=TrendResult)
-def get_trends(region: str = Query("US", max_length=2)):
+def get_trends(region: str = Query("KR", max_length=2)):
     url = f"https://trends.google.com/trends/trendingsearches/daily/rss?geo={region}"
     response = requests.get(url)
     root = ET.fromstring(response.content)

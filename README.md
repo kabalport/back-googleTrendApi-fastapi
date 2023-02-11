@@ -17,8 +17,8 @@ ChatGPT 를 사용해서 google trends 를 나라별로 받아오는 api를 만�
 
 ## 사용법 
 
-- 미국데이터 : https://back-googletrendapi-fastapi.up.railway.app/api/trends
-- 한국데이터 : https://back-googletrendapi-fastapi.up.railway.app/api/trends?region=KR
+- 한국데이터 : https://back-googletrendapi-fastapi.up.railway.app/api/trends
+- 미국데이터 : https://back-googletrendapi-fastapi.up.railway.app/api/trends?region=US
 - 일본데이터 : https://back-googletrendapi-fastapi.up.railway.app/api/trends?region=JP
 
 ## ✨ Features
